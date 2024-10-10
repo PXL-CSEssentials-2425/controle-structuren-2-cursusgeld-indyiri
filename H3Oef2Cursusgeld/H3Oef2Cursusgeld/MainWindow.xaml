@@ -1,0 +1,23 @@
+﻿<Window x:Class="H3Oef2Cursusgeld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:H3Oef2Cursusgeld"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="amountOfHoursLabel" Content="Aantal uren:" HorizontalAlignment="Left" Height="31" Margin="58,124,0,0" VerticalAlignment="Top" Width="94" HorizontalContentAlignment="Right"/>
+        <Label x:Name="yearLabel" Content="Jaar:" HorizontalAlignment="Left" Height="31" Margin="58,40,0,0" VerticalAlignment="Top" Width="94" HorizontalContentAlignment="Right"/>
+        <Label x:Name="registrationFeeLabel" Content="Inschrijvingsgeld:" HorizontalAlignment="Left" Height="31" Margin="39,172,0,0" VerticalAlignment="Top" Width="113" HorizontalContentAlignment="Right"/>
+        <TextBox x:Name="yearTextBox" HorizontalAlignment="Left" Height="31" Margin="200,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
+        <TextBox x:Name="amountOfHoursTextBox" HorizontalAlignment="Left" Height="31" Margin="200,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
+        <TextBox x:Name="registrationFeeTextBox" HorizontalAlignment="Left" Height="31" Margin="200,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
+        <TextBlock x:Name="numericalTextBlock" HorizontalAlignment="Left" Height="32" Margin="344,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198"/>
+        <TextBlock x:Name="leapYearTextBlock" HorizontalAlignment="Left" Height="30" Margin="381,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124"/>
+        <Button x:Name="numericalButton" Content="Test numeriek" HorizontalAlignment="Left" Height="31" Margin="596,40,0,0" VerticalAlignment="Top" Width="118" Click="numericalButton_Click"/>
+        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Height="31" Margin="596,138,0,0" VerticalAlignment="Top" Width="118" Click="closeButton_Click"/>
+        <Button x:Name="calculateButton" Content="Bereken" HorizontalAlignment="Left" Height="31" Margin="596,90,0,0" VerticalAlignment="Top" Width="118" Click="calculateButton_Click"/>
+
+    </Grid>
+</Window>
