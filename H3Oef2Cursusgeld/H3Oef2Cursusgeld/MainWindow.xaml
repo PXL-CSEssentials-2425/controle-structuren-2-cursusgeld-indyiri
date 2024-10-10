@@ -10,8 +10,8 @@
         <Label x:Name="amountOfHoursLabel" Content="Aantal uren:" HorizontalAlignment="Left" Height="31" Margin="58,124,0,0" VerticalAlignment="Top" Width="94" HorizontalContentAlignment="Right"/>
         <Label x:Name="yearLabel" Content="Jaar:" HorizontalAlignment="Left" Height="31" Margin="58,40,0,0" VerticalAlignment="Top" Width="94" HorizontalContentAlignment="Right"/>
         <Label x:Name="registrationFeeLabel" Content="Inschrijvingsgeld:" HorizontalAlignment="Left" Height="31" Margin="39,172,0,0" VerticalAlignment="Top" Width="113" HorizontalContentAlignment="Right"/>
-        <TextBox x:Name="yearTextBox" HorizontalAlignment="Left" Height="31" Margin="200,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
-        <TextBox x:Name="amountOfHoursTextBox" HorizontalAlignment="Left" Height="31" Margin="200,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
+        <TextBox x:Name="yearTextBox" HorizontalAlignment="Left" Height="31" Margin="200,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106" KeyDown="yearTextBox_KeyDown"/>
+        <TextBox x:Name="amountOfHoursTextBox" HorizontalAlignment="Left" Height="31" Margin="200,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106" KeyDown="amountOfHoursTextBox_KeyDown"/>
         <TextBox x:Name="registrationFeeTextBox" HorizontalAlignment="Left" Height="31" Margin="200,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
         <TextBlock x:Name="numericalTextBlock" HorizontalAlignment="Left" Height="32" Margin="344,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198"/>
         <TextBlock x:Name="leapYearTextBlock" HorizontalAlignment="Left" Height="30" Margin="381,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124"/>
